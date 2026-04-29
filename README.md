@@ -4,7 +4,7 @@ Status: **EXPERIMENTAL**
 
 ## Background
 
-Version 2 of the [CPAN Meta Spec])https://metacpan.org/release/RJBS/CPAN-Meta-2.150013/view/lib/CPAN/Meta/Spec.pm) (CPAN distribution metadata specification) is does not allow the addition of new data, except using fields prefixed by "x_".
+Version 2 of the [CPAN Meta Spec](https://metacpan.org/release/RJBS/CPAN-Meta-2.150013/view/lib/CPAN/Meta/Spec.pm) (CPAN distribution metadata specification) is does not allow the addition of new data, except using fields prefixed by "x_".
 
 However, there is a need to include additional metadata about:
 - external dependencies (libraries, files, environment)
