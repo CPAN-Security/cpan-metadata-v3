@@ -49,6 +49,8 @@ Most of this data would reside in a [metadata directory](metadata-directory.md).
 
 The files in the metadata directory would have [well-known and reserved](well-known-names.md)
 
+Note that additionals to the standards can be made by adding a new file or directory to the metadata directory.
+
 There may also be [external metadata archives](external-metadata-archive.md) for existing distributions that do not have this metadata.
 
 ## Tooling
