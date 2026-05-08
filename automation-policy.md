@@ -154,6 +154,11 @@ The JSON schema for the automation policy is
       "type": "integer",
     },
 
+    "distribution": {
+       "description": "An optional name of the software distribution that this applies to",
+       "type": "string"
+    },
+
     "description": {
       "description": "An optional description of this policy",
       "type": "string"
@@ -179,7 +184,7 @@ The JSON schema for the automation policy is
       "enum": [ "none", "comment", "issue", "code_request", "code_change", "release" ]
     }
   },
-  "required": [ "code_generation", "automated_contributions", "automated_actions" ]
+  "required": [ "version", "code_generation", "automated_contributions", "automated_actions" ]
 }
 
 ```
